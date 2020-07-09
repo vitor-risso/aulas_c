@@ -22,13 +22,17 @@ int main(){
         } 
 
         mediaAlunos [i] = media / NumeroDeBim ;
-
-        printf("A media é %.2f \n", mediaAlunos[i]);
         
         media =0;
 
         printf("Digite a nota do aluno %d\n", i+2);
     }
+
+    for (int i = 0; i < NumeroDeAlunos; ++i)
+    {
+        printf("A média do aluno %i é %.2f\n", i+1 , mediaAlunos[i]);
+    }
+    
     
 
 
